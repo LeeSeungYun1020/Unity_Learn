@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameDirector : MonoBehaviour
@@ -26,7 +27,9 @@ public class GameDirector : MonoBehaviour
 		if (time < 0)
 		{
 			time = 0;
+			Point.Value = point;
 			generator.GetComponent<ItemGenerator>().GameEnd();
+			SceneManager.LoadScene("ScoreScene");
 		}
 		else if (time < 5)
 		{
