@@ -14,15 +14,16 @@ public class MainCameraController : MonoBehaviour
 
 	private void Start()
 	{
-		// 바라볼 위치 얻기
 		point = target.transform.position + new Vector3(0, 0.7f, 0);
 		camera = GetComponent<Camera>();
 	}
 
 	private void Update()
 	{
-		if (Input.GetMouseButton(0))
+		Debug.Log(Input.mousePosition);
+		if (Input.GetMouseButton(0) && Input.mousePosition.y > 300)
 		{
+			
 			var rotationX = Input.GetAxis("Mouse X") * Time.deltaTime * rotateSpeed;
 			var rotationY = Input.GetAxis("Mouse Y") * Time.deltaTime * rotateSpeed;
 
