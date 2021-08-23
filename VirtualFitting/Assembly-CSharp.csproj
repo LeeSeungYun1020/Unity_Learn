@@ -53,9 +53,10 @@
     <UnityVersion>2020.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\MainCameraController.cs" />
-    <Compile Include="Assets\BasicManGenerator.cs" />
     <Compile Include="Assets\BasicWomanGenerator.cs" />
+    <Compile Include="Assets\BasicManGenerator.cs" />
+    <Compile Include="Assets\MainCameraController.cs" />
+    <Compile Include="Assets\TouchDirector.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

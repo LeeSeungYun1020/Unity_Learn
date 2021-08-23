@@ -20,7 +20,6 @@ public class MainCameraController : MonoBehaviour
 
 	private void Update()
 	{
-		Debug.Log(Input.mousePosition);
 		if (Input.GetMouseButton(0) && Input.mousePosition.y > 300)
 		{
 			
