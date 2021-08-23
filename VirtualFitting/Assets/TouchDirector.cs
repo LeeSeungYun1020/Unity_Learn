@@ -25,6 +25,8 @@ public class TouchDirector : MonoBehaviour
 		Display(womanPrefab);
 	}
 
+	// 코디 단위 OnClickCoordinationID 추가
+
 	private void Display(GameObject obj)
 	{
 		var prev = GameObject.FindWithTag("Prev");
