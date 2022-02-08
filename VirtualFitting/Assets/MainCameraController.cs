@@ -20,9 +20,8 @@ public class MainCameraController : MonoBehaviour
 
 	private void Update()
 	{
-		if (Input.GetMouseButton(0) && Input.mousePosition.y > 300)
+		if (Input.GetMouseButton(0) && Input.mousePosition.y > 400)
 		{
-			
 			var rotationX = Input.GetAxis("Mouse X") * Time.deltaTime * rotateSpeed;
 			var rotationY = Input.GetAxis("Mouse Y") * Time.deltaTime * rotateSpeed;
 
