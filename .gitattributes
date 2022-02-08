@@ -1,0 +1,6 @@
+VirtualFitting/Library/Il2cppBuildCache/WebGL/Native/build.bc filter=lfs diff=lfs merge=lfs -text
+VirtualFitting/Library/PlayerDataCache/WebGL/Data/data.unity3d filter=lfs diff=lfs merge=lfs -text
+VirtualFitting/Library/PlayerDataCache/Android/Data/data.unity3d filter=lfs diff=lfs merge=lfs -text
+VirtualFitting/web/Build/web.data.gz filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+* !text !filter !merge !diff
